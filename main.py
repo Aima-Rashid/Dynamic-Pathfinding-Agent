@@ -114,6 +114,7 @@ class PathfindingApp:
         self.draw_grid()
 
     # ---------- SEARCH ----------
+    # Implemented A* search algorithm
     def start_search(self):
         start_time = time.time()
         path, visited = self.search()
