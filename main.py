@@ -106,6 +106,7 @@ class PathfindingApp:
             self.grid[r][c] ^= 1
             self.draw_grid()
 
+   # Add Dynamic Obstacle Mode
     def random_map(self):
         for r in range(self.rows):
             for c in range(self.cols):
@@ -227,6 +228,7 @@ if __name__ == "__main__":
     root.mainloop()
     
  
+
 
 
 
