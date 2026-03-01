@@ -21,4 +21,5 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Aima-Rashid/Dynamic-Pathfinding-Agent.git
+
 cd Dynamic-Pathfinding-Agent
