@@ -115,6 +115,7 @@ class PathfindingApp:
 
     # ---------- SEARCH ----------
     # Implemented A* search algorithm
+   # Added Greedy Best-First Search option
     def start_search(self):
         start_time = time.time()
         path, visited = self.search()
@@ -226,5 +227,6 @@ if __name__ == "__main__":
     root.mainloop()
     
  
+
 
 
